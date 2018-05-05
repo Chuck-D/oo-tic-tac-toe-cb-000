@@ -61,7 +61,7 @@ end
      @board[index]!= " " && @board[index]!=nil
   end
 
-  def valid_move?
+  def valid_move?(index)
     !position_taken? && @board[index].between(0,8)
 end
 
