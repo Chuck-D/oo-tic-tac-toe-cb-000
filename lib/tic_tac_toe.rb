@@ -20,9 +20,9 @@ class TicTacToe
     index_1 = winning_combo[1]
     index_2 = winning_combo[2]
     
-    first_position = board[index_0]
-    second_position= board[index_1]
-    third_position=board[index_2]
+    first_position = @board[index_0]
+    second_position= @board[index_1]
+    third_position=@board[index_2]
 
     if first_position=="X"&& second_position=="X"&&third_position=="X"
         return winning_combo
