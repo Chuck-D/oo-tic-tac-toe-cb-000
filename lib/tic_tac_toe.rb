@@ -36,7 +36,7 @@ end
 
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
-  end
+   end
  
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
@@ -60,7 +60,24 @@ end
   def position_taken?
 end
 
-  def 
+  def valid_move?
+end
+
+  def turn 
+  end
+  
+  def full
+end
+  def draw
+end
+
+  def over?
+end
+  def winner
+end
+
+  def play 
+end
 end  
   
   
