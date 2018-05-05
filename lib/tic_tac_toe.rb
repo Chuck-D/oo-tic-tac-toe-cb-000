@@ -67,7 +67,7 @@ end
 
   def turn 
     puts "Please choose a position from 1-9."
-    
+    get
   end
   
   def full
