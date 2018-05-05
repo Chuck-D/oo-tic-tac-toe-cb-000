@@ -34,7 +34,7 @@ class TicTacToe
       return false
 end 
 
-def current_player
+  def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
  
@@ -59,6 +59,8 @@ def current_player
   end
   def position_taken?
 end
+
+  def 
 end  
   
   
