@@ -81,6 +81,7 @@ end
   end
   
   def full
+    
 end
   def draw
 end
