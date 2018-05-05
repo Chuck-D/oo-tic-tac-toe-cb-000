@@ -67,7 +67,15 @@ end
 
   def turn 
     puts "Please choose a position from 1-9."
-    index = gets.strip
+    input = gets.strip
+    index = input_to_index(input)
+    if valid_move?(index)
+      move(index)
+      display_board
+    else
+      puts "The move is invalid. Please choose a position from 1-9."
+    end
+  
   end
   
   def full
