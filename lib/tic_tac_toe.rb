@@ -13,8 +13,8 @@ class TicTacToe
     [0,4,8],
     [2,4,6]
   ]
-  def won?(board)
-  WIN_COMBINATIONS.each{|winning_combo| 
+  def won?
+    WIN_COMBINATIONS.each{|winning_combo| 
     
     index_0 = winning_combo[0]
     index_1 = winning_combo[1]
@@ -48,6 +48,10 @@ def current_player
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
+  end
+  
+  def input_to_index
+    @board[index]= gets.chomp - 1
   end
 end  
   
