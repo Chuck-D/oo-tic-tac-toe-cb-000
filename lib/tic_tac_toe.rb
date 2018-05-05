@@ -70,7 +70,8 @@ end
     input = gets.strip
     index = input_to_index(input)
     if valid_move?(index)
-      move(index)
+      token = current_player
+      move(index,token)
       display_board
     else
       puts "The move is invalid. Please choose a position from 1-9."
