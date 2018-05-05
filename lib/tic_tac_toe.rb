@@ -62,6 +62,7 @@ end
   end
 
   def valid_move?
+    !position_taken? && @board[index]
 end
 
   def turn 
