@@ -58,6 +58,7 @@ end
     @board[input_to_index]=token
   end
   def position_taken?
+     @board[input_to_index]!= " " || nil
 end
 
   def valid_move?
