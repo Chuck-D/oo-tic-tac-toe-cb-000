@@ -74,7 +74,8 @@ end
       move(index,token)
       display_board
     else
-      puts "The move is invalid. Please choose a position from 1-9."
+      puts "The move is invalid."
+      turn
     end
   
   end
