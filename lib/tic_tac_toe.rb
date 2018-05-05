@@ -51,7 +51,7 @@ def current_player
   end
   
   def input_to_index
-    @board[index]= gets.chomp - 1
+    input.to_s
   end
 end  
   
