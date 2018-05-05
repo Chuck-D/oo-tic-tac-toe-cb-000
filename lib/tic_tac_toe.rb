@@ -62,7 +62,7 @@ end
   end
 
   def valid_move?
-    !position_taken? && @board[index].between()
+    !position_taken? && @board[index].between(0,8)
 end
 
   def turn 
