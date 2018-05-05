@@ -54,7 +54,7 @@ def current_player
     input.to_i-1
   end
   
-  def move(@board,token="X")
+  def move(@board[input_to_index],token="X")
     
   end
   def position_taken?
