@@ -58,8 +58,8 @@ end
     @board[index]=token
   end
   def position_taken?(index)
-     @board[index]!= " " || @board[index]!=nil
-end
+     @board[index]!= " " && @board[index]!=nil
+  end
 
   def valid_move?
 end
