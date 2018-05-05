@@ -57,7 +57,7 @@ end
   def move(input_to_index,token="X")
     @board[input_to_index]=token
   end
-  def position_taken?
+  def position_taken?(input_to_index)
      @board[input_to_index]!= " " || nil
 end
 
