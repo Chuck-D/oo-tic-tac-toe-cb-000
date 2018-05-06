@@ -84,7 +84,8 @@ end
     @board.all?{|i| i == "X"|| i =="O"}
     
 end
-  def draw
+  def draw?
+    full? && !won?
 end
 
   def over?
