@@ -81,7 +81,7 @@ end
   end
   
   def full?
-    
+    @board.all?{|i| "X"||"O"}
     
 end
   def draw
