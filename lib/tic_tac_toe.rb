@@ -97,7 +97,7 @@ end
   end
 
   def play 
-    while !over? 
+    while !over? do
     turn
     end
     if won?
