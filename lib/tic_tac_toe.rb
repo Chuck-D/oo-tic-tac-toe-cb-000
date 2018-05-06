@@ -97,8 +97,8 @@ end
   end
 
   def play 
-    until over? do
-    turn
+    until over? do{
+    turn}
   end
     won? ? puts "Congratulations": puts "Game over.  Draw!"
     
