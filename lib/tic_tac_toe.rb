@@ -98,6 +98,7 @@ end
 
   def play 
     while !over? do
+    display_board
     turn
     end
     if won?
