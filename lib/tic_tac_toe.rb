@@ -97,7 +97,7 @@ end
   end
 
   def play 
-    until over? do
+    until over? 
     turn
   end
     won? ? puts "Congratulations": puts "Game over.  Draw!"
