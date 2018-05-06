@@ -100,6 +100,12 @@ end
     until over? 
     turn
     end
+    if won?
+      puts "i"
+      
+    elsif draw?
+      puts"k"
+    end
     
    # won? ? puts "Congratulations": puts "Game over.  Draw!"
   
