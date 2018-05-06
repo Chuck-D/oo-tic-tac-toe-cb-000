@@ -89,8 +89,11 @@ end
 end
 
   def over?
+    won? || full?
 end
   def winner
+    
+    
 end
 
   def play 
