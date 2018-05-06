@@ -105,7 +105,7 @@ end
       puts "Congratulations #{winner}!"
       
     elsif draw?
-      puts"k"
+      puts"Cat's Game!"
     end
     
    # won? ? puts "Congratulations": puts "Game over.  Draw!"
