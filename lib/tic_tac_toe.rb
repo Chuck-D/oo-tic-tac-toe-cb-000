@@ -108,7 +108,7 @@ end
       puts"Cat's Game!"
     end 
     
-   # won? ? puts "Congratulations": puts "Game over.  Draw!"
+   # won? ? puts "Congratulations #{winner}!": puts ""
   
   end
 end  
