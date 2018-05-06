@@ -92,7 +92,7 @@ end
     won? || full?
 end
   def winner
-    if @board.include?(WIN_COMBINATIONS)
+  
       winning_combo=@board[WIN_COMBINATIONS]
       return winning_combo[0]
     end
