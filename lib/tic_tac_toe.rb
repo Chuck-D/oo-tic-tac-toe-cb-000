@@ -80,7 +80,8 @@ end
   
   end
   
-  def full
+  def full?
+    
     
 end
   def draw
