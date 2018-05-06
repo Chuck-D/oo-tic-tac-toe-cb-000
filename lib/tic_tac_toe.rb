@@ -93,8 +93,8 @@ end
 end
   def winner
   
-      @board
-      return winning_combo[0]
+      won? ? @board[won?[0]]: nil
+      
     
     
 end
