@@ -93,7 +93,7 @@ end
 end
   def winner
   
-      winning_combo=@board[WIN_COMBINATIONS]
+      @board
       return winning_combo[0]
     
     
