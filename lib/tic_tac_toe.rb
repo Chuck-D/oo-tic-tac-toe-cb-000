@@ -101,7 +101,7 @@ end
     turn
     end
     if won?
-      puts "i"
+      puts "Congratulations#{winner}!"
       
     elsif draw?
       puts"k"
