@@ -91,15 +91,16 @@ end
   def over?
     won? || full?
   end
-  def winner
   
+  def winner
       won? ? @board[won?[0]]: nil
   end
 
   def play 
     until over? 
     turn
-  end
+    end
+    
     won? ? puts "Congratulations": puts "Game over.  Draw!"
     
   end
