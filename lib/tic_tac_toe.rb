@@ -101,14 +101,11 @@ end
     display_board
     turn
     end
-    if won?
-      puts "Congratulations #{winner}!"
-      
-    elsif draw?
-      puts"Cat's Game!"
+     won? ? puts "Congratulations #{winner}": puts "Cat's Game!"
+    ####    puts"Cat's Game!"
     end
     
-   # won? ? puts "Congratulations": puts "Game over.  Draw!"
+   #
   
   end
 end  
