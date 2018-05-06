@@ -63,7 +63,7 @@ end
 
   def valid_move?(index)
     !position_taken?(index) && index.between?(0,8)
-end
+  end
 
   def turn 
     puts "Please choose a position from 1-9."
@@ -83,24 +83,23 @@ end
   def full?
     @board.all?{|i| i == "X"|| i =="O"}
     
-end
+  end
   def draw?
     full? && !won?
-end
+  end
 
   def over?
     won? || full?
-end
+  end
   def winner
   
       won? ? @board[won?[0]]: nil
-      
-    
-    
-end
+  end
 
   def play 
-end
+    until over?
+    turn
+  end
 end  
   
   
