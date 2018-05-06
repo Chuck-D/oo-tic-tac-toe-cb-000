@@ -92,7 +92,7 @@ end
     won? || full?
 end
   def winner
-    @board.include? {|i| WIN_COMBINATIONS
+    @board.include?(WIN_COMBINATIONS)
     
 end
 
